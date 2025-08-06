@@ -27,26 +27,37 @@ using System;
             Adição();
             Console.WriteLine(resultado);
             }
+        
         else if(operação == 2)
         {
-            menos();
+         Subtração();
             Console.WriteLine(resultado);
         }
-        else if()
+        
+        else if(operação == 3)
+        {
+            Multiplicação();
+            Console.WriteLine(resultado)
+        }
+
+           else if(operação == 4)
+        {
+            Divisão();
+            Console.WriteLine(resultado)
+        }
+        
         static void Adição();
         {
         }
-        static void menos();
+        static void Subtração();
         {
         }
-        static void divisão();
+        static void Multiplicação();
         {
         }
-        static void multiplicação();
+        static void Divisão();
         {
         }
-        static void porcentagem();
-        {
-        }
+        
         
     }
