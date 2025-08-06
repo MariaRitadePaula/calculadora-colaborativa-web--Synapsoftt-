@@ -53,6 +53,7 @@ using System;
         
         static void Adição();
         {
+            resultado = a+b;
         }
         static void Subtração();
         {
