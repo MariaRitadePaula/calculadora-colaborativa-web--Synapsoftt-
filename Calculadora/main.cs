@@ -62,6 +62,7 @@ using System;
         }
         static void Multiplicação();
         {
+            resultado = a*b; 
         }
         static void Divisão();
         {
