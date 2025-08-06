@@ -31,7 +31,8 @@ using System;
         else if(operação == 2)
         {
          Subtração();
-            Console.WriteLine(resultado);
+          
+             Console.WriteLine("a subtração é=" resultado);
         }
         
         else if(operação == 3)
@@ -57,6 +58,7 @@ using System;
         }
         static void Subtração();
         {
+               resultado = a-b
         }
         static void Multiplicação();
         {
