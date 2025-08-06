@@ -45,6 +45,11 @@ using System;
             Divisão();
             Console.WriteLine(resultado)
         }
+
+        else {
+            Console.WriteLine("Operação invalida");
+            return;
+        }
         
         static void Adição();
         {
