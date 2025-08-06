@@ -65,8 +65,11 @@ using System;
             resultado = a*b; 
         }
         static void Divisão();
+       {
+        if (b != 0)
         {
+            resultado = a / b;
         }
-        
+       }
         
     }
