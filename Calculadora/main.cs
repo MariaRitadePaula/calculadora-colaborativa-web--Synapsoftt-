@@ -31,6 +31,7 @@ using System;
         else if(operação == 2)
         {
          Subtração();
+            lll
             Console.WriteLine(resultado);
         }
         
