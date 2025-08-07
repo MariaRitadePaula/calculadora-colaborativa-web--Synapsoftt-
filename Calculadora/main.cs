@@ -80,6 +80,7 @@ using System;
        }
          static void Porcentagem();
        {
+            resultado = a * (b / 100);
        }
         
     }
