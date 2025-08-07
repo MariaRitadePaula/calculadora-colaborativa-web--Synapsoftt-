@@ -16,6 +16,7 @@ using System;
             Console.WriteLine("2 - Subtração");
             Console.WriteLine("3 - Multiplicação");
             Console.WriteLine("4 - Divisão");
+            Console.WriteLine("5 - Porcentagem");
             int operação = int.Parse(Console.ReadLine()):
 
             Console.WriteLine("Digite seu primeiro valor:");
@@ -47,6 +48,12 @@ using System;
             Console.WriteLine(resultado)
         }
 
+         else if(operação == 5)
+        {
+          Porcentagem();
+            Console.WriteLine(resultado)
+        }
+
         else {
             Console.WriteLine("Operação invalida");
             return;
@@ -70,6 +77,9 @@ using System;
         {
             resultado = a / b;
         }
+       }
+         static void Porcentagem();
+       {
        }
         
     }
